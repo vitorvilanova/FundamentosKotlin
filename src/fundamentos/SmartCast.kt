@@ -16,8 +16,8 @@ fun souEsperto2(x: Any) {
 }
 
 fun main(args: Array<String>) {
-    souEsperto("Ola")
-    souEsperto(9)
+    souEsperto("Ola1")
+    souEsperto(10)
     souEsperto2("Opa2")
     souEsperto2(7)
     souEsperto2(true)

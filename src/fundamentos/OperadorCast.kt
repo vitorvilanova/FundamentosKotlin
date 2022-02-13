@@ -6,7 +6,7 @@ fun imprimirConceito(nota: Any) {
         8, 7 -> println("B")
         6, 5 -> println("C")
         4, 3 -> println("D")
-        2, 1, 0 -> println("E")
+        2, 1, 0 -> println("F")
         else -> println("Nota inválida")
     }
 }
