@@ -1,4 +1,4 @@
-package fundamentos.funcoes
+package funcoes
 
 //todos os parametros de uma funcao é uma contante
 
