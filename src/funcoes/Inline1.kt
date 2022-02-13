@@ -8,6 +8,7 @@ inline fun transacao(funcao: () -> Unit) {
         println("fechando transação")
     }
 }
+
 fun main(args: Array<String>) {
     transacao {
         println("Executando SQL 1...")
@@ -15,3 +16,5 @@ fun main(args: Array<String>) {
         println("Executando SQL 3...")
     }
 }
+
+//O trecho das linhas 13 a 17 é feretente a execucao funcao() da linha 6
