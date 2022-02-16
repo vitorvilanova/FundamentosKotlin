@@ -1,6 +1,6 @@
 package lambdas
 
-class Calculadora {
+class Calculadoras {
     var resultado = 0
     fun soma(valor1: Int, valor2: Int) {
         resultado += valor1 + valor2
@@ -10,7 +10,7 @@ class Calculadora {
     }
 }
 fun main(args: Array<String>) {
-    val calculadora = Calculadora()
+    val calculadora = Calculadoras()
     calculadora.apply { soma(4, 5) }.apply { add(5) }.apply { println(resultado)
     }
     calculadora.apply {
