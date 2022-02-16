@@ -8,6 +8,7 @@ class Pessoa(id: Int, nome: String) {
     @NaoVazio
     var nome: String = nome
 }
+
 fun getValue(objeto: Any, atributo: String): Any {
     val field = objeto.javaClass.getDeclaredField(atributo)
     val isAccessibleOriginal = field.isAccessible
